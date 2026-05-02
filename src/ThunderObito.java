@@ -15,5 +15,6 @@ public class ThunderObito extends GameEngine
 
     public void paintComponent() {
         changeBackgroundColor(Color.red);
+        clearBackground(width(), height());
     }
 }
