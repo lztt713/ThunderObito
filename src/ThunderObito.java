@@ -10,8 +10,8 @@ public class ThunderObito extends GameEngine
     boolean up, down;
     boolean gameOver;
 
-    int score;
-    int lives;
+    int score,health,experience;
+
 
 
 
