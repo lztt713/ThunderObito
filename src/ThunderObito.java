@@ -5,6 +5,12 @@ public class ThunderObito extends GameEngine
         createGame(new ThunderObito(),10);
     }
 
+    boolean up, down;
+    boolean gameOver;
+
+    boolean
+
+
 
     public void update(double dt) {
 
