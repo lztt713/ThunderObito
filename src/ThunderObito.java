@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class ThunderObito extends GameEngine
 {
     public static  void main(String[] args)
@@ -12,6 +14,6 @@ public class ThunderObito extends GameEngine
 
 
     public void paintComponent() {
-
+        changeBackgroundColor(Color.red);
     }
 }
